@@ -2,4 +2,42 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
+    font-size:100%;
+    font-family:sans-serif;
+}
+body{
+    background:linear-gradient(to top right azure,blue,azure);
+    height:100vh;
+}
+header{
+    padding:1% 20px;
+    background:black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo{
+    color:white;
+    font-family:cursive;
+    font-size:1.9rem;
+}
+header .logo span{
+    color:aqua;
+}
+header nav ul{
+    list-style:none;
+    display:flex;
+}
+header nav ul li a{
+    padding:5px 20px;
+    text-decoration:none;
+    color:white;
+    font-size:1.2rem;
+    font-family: cursive;
+    border-radius:20px;
+    transition: 0.5s;
+}
+header nav ul li a:hover{
+    background:#111;
+    color:aqua;
 }
