@@ -1,0 +1,11 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-size:100%;
+    font-family:sans-serif;
+}
+body{
+    background:linear-gradient(to top right, rgb(2, 128, 128),rgb(25, 25, 131),aqua);
+    height:100vh;
+}
